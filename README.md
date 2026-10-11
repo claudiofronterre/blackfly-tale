@@ -1,0 +1,5 @@
+Authoritative presentation workspace. Run Rscript rebuild_figures.R and quarto render blackfly-tale.qmd from this directory. SVG figures embed Manrope fonts; PDF and 300-dpi PNG versions in assets. Template preserves the Birmingham gold heading rule and cover identity; secondary palette used for data. Original adaptive input is now in data and verified as 7,498 site-months/660 sites. See INPUT_AUDIT.md for provenance. Spatial-model maps use the distinct 676-location cohort. 18 main slides, 25 minutes plus questions.
+
+Cohort update (11 October): national figures use all 676 model locations; three-zone seasonal/adaptive figures use the audited 664-location cohort. Twelve all-zero Wetland locations remain outside the seasonal scope. See INPUT_AUDIT.md and ../seasonality_adapative_sampling/cohort_audit/README.md.
+
+PDF comment revision: cover hierarchy and vector icon; page numbers bottom right; disease and epi/ento evidence introduction; original Anambra case rebuilt; model dataset introduced before national concentration. 19 slides, timed notes total 25 minutes.

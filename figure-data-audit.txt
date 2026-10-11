@@ -1,0 +1,4 @@
+Saved training locations: 676
+Top 10% catch share: 91.55
+Seasonality site-months: 7513
+Seasonality sites: 664
