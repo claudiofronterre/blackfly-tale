@@ -243,3 +243,11 @@
 .reveal .cover-whocc{width:310px}
 .reveal .cover-birmingham{width:265px}
 .reveal .cover .cover-title{margin-top:155px}
+
+.reveal .empirical-pair{display:grid;grid-template-columns:1fr 1fr;gap:38px;margin-top:20px}
+.reveal .empirical-panel>p:first-child{font-size:25px;margin:0 0 12px;line-height:1.3}
+.reveal .empirical-panel>p:has(img){margin:0}
+.reveal .empirical-panel img{width:100%;height:365px;max-height:365px;object-fit:contain}
+
+.reveal .empirical-panel>p:nth-child(2){font-size:22px;color:#58595B;margin:0 0 5px}
+.reveal .empirical-panel>p:first-child{margin-bottom:8px}

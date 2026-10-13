@@ -195,15 +195,27 @@ Another site may offer a better yield.
 
 ## What do repeated zeros imply? {#conditional-outlook}
 
-:::: {.closing-chart}
-![](assets/empirical-outlook.svg){alt="Observed later-positive proportions after initial zero catches, pooling ecological zones: after one zero month 84 of 329 sites, after two 66 of 311, after three 46 of 291, after four 39 of 284"}
+:::: {.empirical-pair}
+::: {.empirical-panel}
+**Early catches distinguish later success**
+
+Months 4–12
+
+![](assets/empirical-early-late.svg){alt="Among our374sites, later positive catches occurred at78of83initially productive sites,94percent, versus46of291initially zero sites,16percent"}
+:::
+::: {.empirical-panel}
+**What follows a run of zeros?**
+
+Remaining 12 − k months
+
+![](assets/empirical-zero-run.svg){alt="Observed later-positive proportions after1through4initial zero months:26,21,16and14percent, with12minuskmonths remaining"}
+:::
 ::::
 
-<div class="closing-message">After three zero months, 16% of sites yielded flies in months 4–12.</div>
-
+<div class="closing-message">Early catches help identify sites more likely to yield flies later.</div>
 
 ::: {.notes}
-1:00. Empirical descriptive analysis, pooling the ecological zones represented in the corrected664-site seasonal cohort. Use each site's earliest complete consecutive12-calendar-month sequence. Require an observed record in every month, so missing records never count as zeros. Exactly374sites meet this requirement, with4488site-months in selected windows; the full observed-seasonality slide retains its664sites and7513site-months. No ecological stratification, model assumptions or modelled predictions in this figure. For k=1,2,3,4, select sites with zero catches in every one of their first k months and calculate the proportion with at least one positive catch in months k+1 through12. Results:84/329=25.5%,66/311=21.2%,46/291=15.8%,39/284=13.7%. Denominators differ because eligibility conditions become stricter. Remaining follow-up also shortens as k grows. This is an observed conditional proportion in selected complete follow-up windows, not independent validation, a causal effect, or a universal forecast for a new site. Lines connect the four summaries. Start months and zones vary between sites; interpret the subsequent seasonal slide as context for that pooled pattern. Same corrected664-site source as the seasonal chart, retaining its exclusion of12all-zeroWetland sites. Reproducible source: rebuild_empirical_outlook.R. Audit and site-level windows: data/empirical-outlook-audit.txt, data/empirical-outlook-site-windows.csv; counts: data/empirical-outlook-summary.csv. The replacement-gain figure later remains explicitly modelled.
+1:00. Left comparison:78/83=94.0% later-positive after early positive catches, versus46/291=15.8% after early zeros. Both groups have the same months4–12 follow-up. Right chart preserves the current initial-zero comparison. Both axes use the same0–100% scale. Counts appear within the left bars. The right-hand trend also reflects fewer remaining observation months as k increases. Empirical descriptive analysis, pooling the ecological zones represented in the corrected664-site seasonal cohort. Use each site's earliest complete consecutive12-calendar-month sequence. Require an observed record in every month, so missing records never count as zeros. Exactly374sites meet this requirement, with4488site-months in selected windows; the full observed-seasonality slide retains its664sites and7513site-months. No ecological stratification, model assumptions or modelled predictions in this figure. For k=1,2,3,4, select sites with zero catches in every one of their first k months and calculate the proportion with at least one positive catch in months k+1 through12. Results:84/329=25.5%,66/311=21.2%,46/291=15.8%,39/284=13.7%. Denominators differ because eligibility conditions become stricter. Remaining follow-up also shortens as k grows. This is an observed conditional proportion in selected complete follow-up windows, not independent validation, a causal effect, or a universal forecast for a new site. Lines connect the four summaries. Start months and zones vary between sites; interpret the subsequent seasonal slide as context for that pooled pattern. Same corrected664-site source as the seasonal chart, retaining its exclusion of12all-zeroWetland sites. Reproducible source: rebuild_empirical_outlook.R. Audit and site-level windows: data/empirical-outlook-audit.txt, data/empirical-outlook-site-windows.csv; counts: data/empirical-outlook-summary.csv. The replacement-gain figure later remains explicitly modelled.
 :::
 
 ## Season changes the chance of finding flies {#collection-success-varies-by-season-and-ecological-setting}
