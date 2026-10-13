@@ -235,3 +235,11 @@
 .reveal .conclusion-bullets ul{margin:0 0 0 30px;display:block}
 .reveal .conclusion-bullets li{font-size:28px;line-height:1.4;margin:0 0 22px;padding-left:9px}
 .reveal .conclusion-bullets li::marker{color:#00ACA9}
+
+/* Continuing affiliations appear on the title slide only. */
+.reveal .cover-affiliations{position:absolute;top:0;left:0;right:0;display:flex;align-items:center;justify-content:space-between;height:125px;gap:35px}
+.reveal .cover-affiliations img{object-fit:contain;margin:0;max-height:125px}
+.reveal .cover-lancaster{width:240px}
+.reveal .cover-whocc{width:310px}
+.reveal .cover-birmingham{width:265px}
+.reveal .cover .cover-title{margin-top:155px}
